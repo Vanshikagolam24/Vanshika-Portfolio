@@ -77,7 +77,7 @@ Example contents:
 
 ```
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/portfolio
+MONGO_URI=mongodb://localhost:270**/portfolio [example]
 ```
 
 3. If you are using MongoDB Atlas, replace `MONGO_URI` with your Atlas connection string.
