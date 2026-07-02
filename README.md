@@ -174,3 +174,18 @@ Messages are stored in the `portfolio` database with the `messages` collection. 
 - Replace `(Add my email)` and `(Add my phone number)` with your real values.
 - Replace GitHub, LinkedIn, and Instagram links once available.
 - Replace `resume.pdf` with your actual resume file.
+
+
+👩‍💻 Author
+
+Vanshika Golam
+
+📧 vanshikagolam@gmail.com 🔗 https://www.linkedin.com/in/vanshika-golam-a955a926b/
+
+📢 Contributing
+
+Contributions are welcome! Feel free to fork the repo, create a branch, and submit a pull request.
+
+📜 License
+
+This project is licensed under the MIT License – see the LICENSE file for details.
