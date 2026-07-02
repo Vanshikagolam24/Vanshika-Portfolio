@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanshika Golam Portfolio| Software Developer</title>
+  <meta name="description" content="Professional portfolio of Vanshika Golam - Software Developer, Android Developer, React Developer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+      <div class="spinner"></div>
+      <p>Loading portfolio...</p>
+    </div>
+  </div>
+
+  <div class="progress-ring" id="progressRing"></div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <a href="#home" class="brand">My Portfolio.</a>
+      </div>
+      <div class="topbar-center">
+        <nav class="nav-menu" id="navMenu">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="topbar-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☾</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HOME SECTION -->
+  <main>
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Hello, I’m</p>
+          <h1>Vanshika Golam</h1>
+          <p class="hero-title">Software Developer | Android Developer | Web Developer</p>
+          <p class="hero-text">I build polished web and Android experiences with modern UI, strong backend design, and attention to performance.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="button primary">Hire Me</a>
+            <a href="#projects" class="button secondary">View Projects</a>
+          </div>
+        </div>
+        <div class="hero-card glass-card">
+          <div class="hero-animation">
+            <span class="typing-label">I solve problems with</span>
+            <span class="typing-text" id="typingText"></span>
+          </div>
+          <div class="hero-stats">
+            <div><strong>6 Months</strong><span>Internship Experience</span></div>
+            <div><strong>Java</strong><span>Application Development</span></div>
+            <div><strong>SQL</strong><span>Database Management</span></div>
+          </div>
+          <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=100077560930630" target="_blank">
+              <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="https://x.com/Vanshika24__" target="_blank">
+              <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="https://www.instagram.com/vanshikkaaa.24/" target="_blank">
+              <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="https://www.linkedin.com/in/vanshika-golam-a955a926b" target="_blank">
+              <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="https://github.com/Vanshikagolam24/" target="_blank">
+              <i class='bx bxl-github'></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- ABOUT SECTION -->
+    <section class="about-section section" id="about">
+      <div class="container section-heading">
+        <span>About</span>
+        <h2>Professional Bio</h2>
+      </div>
+      <div class="container about-grid">
+        <div class="glass-card about-copy">
+          <p>I recently completed my Bachelor of Computer Applications (BCA) and gained valuable experience during a 6-month internship at Kriam Pharma Pvt Ltd. I collaborated with ERP and SFA systems, managed doctypes, uploaded structured data into the ERP UAT environment, maintained business records, and supported daily IT operations and workflows.</p>
+          <p>Alongside my internship, I contributed to a Sales Analytics Dashboard project to display and monitor sales data. I enjoy building web and Android applications and continuously improve my skills in Java, React, Android Development, Docker, SQL, and Data Structures & Algorithms.</p>
+          <p>I am actively looking for opportunities as a Software Developer and excited to grow on new engineering challenges.</p>
+        </div>
+        <div class="glass-card about-info">
+          <div class="info-block">
+            <h3>Experience</h3>
+            <p>IT Intern, Kriam Pharma Pvt Ltd</p>
+            <p>6 Months</p>
+          </div>
+          <div class="info-block">
+            <h3>Location</h3>
+            <p>Maharashtra, India</p>
+          </div>
+          <div class="info-block">
+            <h3>Email</h3>
+            <p>vanshikagolam@gmail.com</p>
+          </div>
+          <div class="info-block">
+            <h3>Phone</h3>
+            <p>+91-9324150407</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills-section section" id="skills">
+      <div class="container section-heading">
+        <span>Skills</span>
+        <h2>Core Technologies</h2>
+      </div>
+      <div class="container skills-grid">
+        <div class="glass-card skill-card fade-up">
+          <h3>Programming Languages</h3>
+          <div class="skill-chip">Java</div>
+          <div class="skill-chip">Python</div>
+          <div class="skill-chip">C++</div>
+          <div class="skill-chip">JavaScript</div>
+        </div>
+        <div class="glass-card skill-card fade-up delay-1">
+          <h3>Frontend</h3>
+          <div class="skill-chip">HTML</div>
+          <div class="skill-chip">CSS</div>
+          <div class="skill-chip">React.js</div>
+        </div>
+        <div class="glass-card skill-card fade-up delay-2">
+          <h3>Backend</h3>
+          <div class="skill-chip">SQL</div>
+          <div class="skill-chip">MySQL</div>
+          <div class="skill-chip">MongoDB</div>
+        </div>
+
+        <div class="glass-card skill-card fade-up delay-4">
+          <h3>Mobile Development</h3>
+          <div class="skill-chip">Android Studio</div>
+          <div class="skill-chip">Java</div>
+          <div class="skill-chip">XML</div>
+          <div class="skill-chip">Firebase</div>
+        </div>
+
+        <div class="glass-card skill-card fade-up delay-3">
+          <h3>Tools & Platforms</h3>
+          <div class="skill-chip">Git</div>
+          <div class="skill-chip">GitHub</div>
+          <div class="skill-chip">VS Code</div>
+          <!-- <div class="skill-chip">Firebase</div> -->
+          <div class="skill-chip">Linux</div>
+          <div class="skill-chip">Docker</div>
+          <div class="skill-chip">Cloud Computing</div>
+        </div>
+
+        <div class="glass-card skill-card fade-up delay-3">
+          <h3>Business Tools</h3>
+          <div class="skill-chip">ERP-Next</div>
+          <div class="skill-chip">SFA (Sales Force Automation)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects-section section" id="projects">
+      <div class="container section-heading">
+        <span>Projects</span>
+        <h2>Recent Work</h2>
+      </div>
+      <div class="container projects-grid">
+<!-- 1 -->
+        <article class="project-card glass-card fade-up delay-3">
+          <div class="project-top">
+            <h3>Fit-Life: A Fitness & Wellness App</h3>
+            <p>Android app project built with Java, XML, Android Studio and Firebase to deliver high-quality mobile experiences.</p>
+          </div>
+          <div class="project-meta">
+            <span>Java • XML • Android Studio • Firebase</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/Vanshikagolam24/Fit-Life-Application" class="button tertiary">GitHub</a>
+            <!-- <a href="#" class="button tertiary">Live Demo</a> -->
+          </div>
+        </article>
+<!-- 2 -->
+        <article class="project-card glass-card fade-up">
+          <div class="project-top">
+            <h3>Sales Analytics Dashboard</h3>
+            <p>Web and mobile application for viewing and tracking sales performance with clear analytics and business insights.</p>
+          </div>
+          <div class="project-meta">
+            <span>Java • HTML • CSS • JavaScript • PHP • MySQL</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/Vanshikagolam24" class="button tertiary">GitHub</a>
+            <!-- <a href="#" class="button tertiary">Live Demo</a> -->
+          </div>
+        </article>
+<!-- 3 -->
+        <article class="project-card glass-card fade-up delay-1">
+          <div class="project-top">
+            <h3>Task Tracker</h3>
+            <p>React app with local storage support, task editing, completion tracking, and responsive task management UI.</p>
+          </div>
+          <div class="project-meta">
+            <span>React • JavaScript • CSS</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/Vanshikagolam24/task-tracker" class="button tertiary">GitHub</a>
+            <!-- <a href="#" class="button tertiary">Live Demo</a> -->
+          </div>
+        </article>
+<!-- 4 -->
+        <article class="project-card glass-card fade-up delay-2">
+          <div class="project-top">
+            <h3>Job Application Tracker</h3>
+            <p>React app to manage job applications, application status, company details, and notes in a responsive interface.</p>
+          </div>
+          <div class="project-meta">
+            <span>Java • XML • Android Studio • Sql</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/Vanshikagolam24/Job-Referral-Hiring-Tracker-Platform" class="button tertiary">GitHub</a>
+            <!-- <a href="#" class="button tertiary">Live Demo</a> -->
+          </div>
+        </article>
+
+        
+      </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section class="resume-section section" id="resume">
+      <div class="container section-heading">
+        <span>Resume</span>
+        <h2>Career Overview</h2>
+      </div>
+      <div class="container resume-card glass-card fade-up">
+        <p>A summary of my education, technical skills, internship experience, and projects.</p>
+        <a href="resume.pdf" target="_blank" class="button primary">Download Resume</a>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section section" id="contact">
+      <div class="container section-heading">
+        <span>Contact</span>
+        <h2>Let’s Connect</h2>
+      </div>
+      <div class="container contact-grid">
+        <div class="glass-card contact-info fade-up">
+          <h3>Contact Details</h3>
+          <p>Reach out for project inquiries, collaborations, or job opportunities.</p>
+          <div class="contact-details">
+            <div><strong>Email</strong><span>vanshikagolam@gmail.com</span></div>
+            <div><strong>Phone</strong><span>9324150407</span></div>
+            <div><strong>Location</strong><span>Maharashtra, India</span></div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/Vanshikagolam24" aria-label="GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/vanshika-golam-a955a926b/" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://www.instagram.com/vanshikkaaa.24?igsh=MWs2bXJid3dvMjVtMg%3D%3D" aria-label="Instagram">Instagram</a>
+            <a href="https://youtube.com/@vanshikagolam?si=pZdPnLzEYDc9n76x" aria-label="YouTube">YouTube</a>
+          </div>
+        </div>
+        <form class="glass-card contact-form fade-up delay-1" id="contactForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+          <button type="submit" class="button primary">Send Message</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Vanshika Golam. All Right Reserved.</p>
+      <!-- <div class="footer-socials">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Instagram</a>
+      </div> -->
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
