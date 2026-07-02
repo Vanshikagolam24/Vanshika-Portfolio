@@ -180,7 +180,8 @@ Messages are stored in the `portfolio` database with the `messages` collection. 
 
 Vanshika Golam
 
-📧 vanshikagolam@gmail.com 🔗 https://www.linkedin.com/in/vanshika-golam-a955a926b/
+📧 vanshikagolam@gmail.com 
+🔗 https://www.linkedin.com/in/vanshika-golam-a955a926b/
 
 📢 Contributing
 
